@@ -153,11 +153,11 @@ end
 %set color at (a, b) of panoramic image from image2%
 for b = 1:maxHeight
     for a = 1:maxWidth
+        %matlab coordinate start from 1, so we need to sub one%
         x = a - 1;
         y = b - 1;
         if minY < 0
             x = a;
-            %matlab coordinate start from 1, so we need to sub one%
             y = b - abs(minY);
         end
         
