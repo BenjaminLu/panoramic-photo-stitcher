@@ -136,7 +136,7 @@ maxWidth = int64(maxWidth)
 maxHeight = int64(maxHeight)
 
 
-%set background color%
+%set color%
 
 %background%
 image = zeros(maxHeight, maxWidth, 3, 'uint8');
